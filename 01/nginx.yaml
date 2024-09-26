@@ -1,11 +1,11 @@
-apiVersion: v1
-kind: Pod
-metadata:
+apiVersion: v1 # esta es la version que usaremos
+kind: Pod # este es el tipo de objeto
+metadata: #la metada de nuestro objeto
   name: nginx
   labels:
     zone: prod
     version: v1
-spec:
+spec: # las especificaciones de nuestro objeto
   containers:
    - name: nginx   
      image: mariossan/nginx:v1
