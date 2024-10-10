@@ -5,6 +5,7 @@ metadata: #la metada de nuestro objeto
   labels:
     zone: prod
     version: v1
+    newname: mariossan
 spec: # las especificaciones de nuestro objeto
   containers:
    - name: nginx   
