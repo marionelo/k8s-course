@@ -1,6 +1,6 @@
 ##Descargamos una versión concreta de UBUNTU, a través del tag
 FROM ubuntu
-MAINTAINER Apasoft Formacion "apasoft.formacion@gmail.com"
+
 ##Actualizamos el sistema
 RUN apt-get update
 ##Instalamos HTTPD Apache 2
